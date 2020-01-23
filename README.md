@@ -7,11 +7,12 @@ The propose of this course is to teach you how to use the Python automation libr
 ![PSCAD](https://hvdc.ca/uploads/ck/images/Auto%20Lib1.jpg)
 
 # Course Structure
-1. Introduction
-2. Hello World
-3. Variables and Basic math
+0. Introduction
+1. Hello World
+2. Variables and Basic math
 4. Conditionals and loops
-5. Function
+3. Data structures
+5. Functions
 6. Using and installing modules
 7. Numpy module
 8. Pandas module
