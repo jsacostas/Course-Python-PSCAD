@@ -1,0 +1,35 @@
+<Meta name="volleyMain">
+  <messagelist>
+    <message status="normal" label="build" groupid="100006">
+      <User scope="volleyMain" name="volleyMain" status="normal" link="826425590" /><![CDATA[Generating network and source code 'C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\volleyMain.gf46\Station.f'.]]></message>
+    <message status="normal" label="build" groupid="100006">
+      <User scope="volleyMain" name="Main" status="normal" link="1295094476" /><![CDATA[Generating network and source code 'C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\volleyMain.gf46\Main.f'.]]></message>
+    <message status="normal" label="build" scope="volleyMain" groupid="100006"><![CDATA[Generating 'C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\volleyMain.gf46\volleyMain.map'.]]></message>
+    <message status="normal" label="build" scope="volleyMain" groupid="100014"><![CDATA[The total number of live nodes: 0]]></message>
+    <message status="normal" label="build" scope="volleyMain" groupid="400000"><![CDATA[Time for Compile: 93ms  Make: 16ms]]></message>
+    <message status="normal" label="build" scope="volleyMain" groupid="100015"><![CDATA[Will execute (1): call C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat]]></message>
+    <message status="normal" label="build" scope="volleyMain" groupid="100015"><![CDATA[Will execute (1): call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat"]]></message>
+    <message status="normal" label="build" scope="volleyMain" groupid="100015"><![CDATA[Will execute (2): make -f volleyMain.mak]]></message>
+    <message status="normal" label="build" scope="volleyMain" groupid="100015"><![CDATA[Will execute (2): "C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\volleyMain.gf46\volleyMain.mak.bat"]]></message>
+    <message status="normal" label="build" scope="volleyMain" groupid="100005"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" scope="volleyMain" groupid="0"><![CDATA[(py36) C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\volleyMain.gf46>call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat" ]]></message>
+    <message status="normal" label="build" scope="volleyMain" groupid="100004"><![CDATA[Compiling 'Station.f' into object code.]]></message>
+    <message status="normal" label="build" scope="volleyMain" groupid="100004"><![CDATA[Compiling 'Main.f' into object code.]]></message>
+    <message status="normal" label="build" scope="volleyMain" groupid="100012"><![CDATA[Linking objects and libraries into binary 'volleyMain.exe']]></message>
+    <message status="normal" label="build" scope="volleyMain" groupid="400000"><![CDATA[Solve Time = 16ms]]></message>
+  </messagelist>
+  <ViewContext>
+    <Window defn="volleyMain:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomlevel="6" scrollx="0" scrolly="0" />
+  </List>
+  <Catalog count="0" />
+  <Output device="EMTDC" version="2010" date="2020/01/22" time="19:12:32.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="4000.0" end="2000" />
+    </Domain>
+    <List classid="Analog" />
+    <List classid="Digital" />
+  </Output>
+</Meta>

@@ -1,0 +1,40 @@
+Line Summary:
+   {
+   Line Name = TMultip2
+   Line Length = 26.0
+   Steady State Frequency = 60.0
+   Number of Conductors = 3
+   }
+! This should be in a section called TLINE-INPUT-DATA
+Frequency Dep. (Phase) Model Options:
+   {
+   Interpolate Travel Times = 1
+   Infinite Line Length = 0
+   Curve Fitting Start Frequency = 0.5
+   Curve Fitting End Frequency = 1000000.0
+   Total Number of Frequency Increments = 100
+   Maximum # of Poles for Surge Admittance Fit = 20
+   Maximum # of Poles for Attenuation Constant Fit = 20
+   Maximum Fitting Error (%) for Surge Admittance = 0.2
+   Maximum Fitting Error (%) for Attenuation Constant = 0.2
+   Maximum Residue/Pole Ratio Tolerance = 2000000.0
+   Weighting Factor 1 = 1.0
+   Weighting Factor 2 = 1000.0
+   Weighting Factor 3 = 1.0
+   Write Detailed Output Files = 0
+   }
+! This should be in a section called TLINE-INPUT-DATA
+Line Constants Ground Data:
+   {
+   Ground Resistivity Type = 0
+   GroundResistivity = 4000.0
+   GroundPermeability = 1.0
+   EarthImpedanceFormula = 0
+   EarthUImpedanceFormula = 2
+   EarthMImpedanceFormula = 2
+   }
+! This should be in a section called TLINE-INPUT-DATA
+Line Constants Tower:
+   {
+   External file name = ..\3_prueba_1x500_4_obj.csv
+   }

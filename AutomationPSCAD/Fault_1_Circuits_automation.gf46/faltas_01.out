@@ -1,0 +1,36 @@
+ Multiple Run Output File
+  Run #                tfa          Tension
+    1         -.1193554768E-03  449.4239994
+
+The optimum occurred for run #      1 and has been repeated for the last run below:
+  Run #                tfa          Tension
+    2         -.1193554768E-03  449.4239994
+
+Statistical Summary Based on      1 Runs:
+-----------------------------------------
+                    tfa          Tension
+Minimum:   -.1193554768E-03  449.4239994    
+Maximum:   -.1193554768E-03  449.4239994    
+Mean:      -.1193554768E-03  449.4239994    
+Std Dev:                NaN         Infinity
+ 2% Level:              NaN        -Infinity
+98% Level:              NaN         Infinity
+
+Probability Density Functions (%) for Variable 1, Tension             
+-------------------------------------------------------------------
+Centre of Range     Probability(%)   Cumulative Prob.(%)   100-Cumulative Prob.
+ 449.4239994         0.000000000         0.000000000         100.0000000    
+ 449.4239994         0.000000000         0.000000000         100.0000000    
+ 449.4239994         0.000000000         0.000000000         100.0000000    
+ 449.4239994         0.000000000         0.000000000         100.0000000    
+ 449.4239994         0.000000000         0.000000000         100.0000000    
+ 449.4239994         0.000000000         0.000000000         100.0000000    
+ 449.4239994         0.000000000         0.000000000         100.0000000    
+ 449.4239994         0.000000000         0.000000000         100.0000000    
+ 449.4239994         0.000000000         0.000000000         100.0000000    
+ 449.4239994         100.0000000         100.0000000         0.000000000    
+
+Initial Seed Used in Random Number Generation
+---------------------------------------------
+Initial Seed
+  1303685979

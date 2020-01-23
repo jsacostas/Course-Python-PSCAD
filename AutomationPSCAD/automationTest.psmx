@@ -1,0 +1,38 @@
+<Meta name="automationTest">
+  <messagelist>
+    <message status="normal" label="build" scope="automationTest" groupid="100006"><![CDATA[Generating 'C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\automationTest.gf46\automationTest.map'.]]></message>
+    <message status="normal" label="build" scope="automationTest" groupid="100014"><![CDATA[The total number of live nodes: 18]]></message>
+    <message status="normal" label="build" scope="automationTest" groupid="100001"><![CDATA[Non-professional licenses are limited to a single, electrical subsystem. Subsystem splitting has been internally disabled for this simulation.]]></message>
+    <message status="normal" label="build" scope="automationTest" groupid="400000"><![CDATA[Time for Compile: 0ms  Make: 16ms]]></message>
+    <message status="normal" label="build" scope="automationTest" groupid="100015"><![CDATA[Will execute (1): call C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat]]></message>
+    <message status="normal" label="build" scope="automationTest" groupid="100015"><![CDATA[Will execute (1): call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat"]]></message>
+    <message status="normal" label="build" scope="automationTest" groupid="100015"><![CDATA[Will execute (2): make -f automationTest.mak]]></message>
+    <message status="normal" label="build" scope="automationTest" groupid="100015"><![CDATA[Will execute (2): "C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\automationTest.gf46\automationTest.mak.bat"]]></message>
+    <message status="normal" label="build" scope="automationTest" groupid="100005"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" scope="automationTest" groupid="0"><![CDATA[(py36) C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\automationTest.gf46>call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat" ]]></message>
+    <message status="normal" label="build" scope="automationTest" groupid="100012"><![CDATA[Linking objects and libraries into binary 'automationTest.exe']]></message>
+    <message status="normal" label="build" scope="automationTest" groupid="400000"><![CDATA[Solve Time = 63ms]]></message>
+  </messagelist>
+  <ViewContext>
+    <Window defn="automationTest:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomlevel="6" scrollx="0" scrolly="0" />
+    <View name="TLine_part1" zoomlevel="6" scrollx="0" scrolly="0" />
+    <View name="TLine_part2" zoomlevel="6" scrollx="0" scrolly="0" />
+  </List>
+  <Catalog count="0" />
+  <Output device="EMTDC" version="2010" date="2020/01/22" time="15:25:11.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="4000.0" end="800" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):iLoad" index="0" id="1653734052:0" label="" dim="3" unit="" min="2000" max="-2000" />
+      <Analog name="Main(0):Vf" index="3" id="1999184271:0" label="" dim="3" unit="" min="2000" max="-2000" />
+      <Analog name="Main(0):reactivePower" index="6" id="1365253125:0" label="" dim="1" unit="" min="-2000" max="2000" />
+      <Analog name="Main(0):activePower" index="7" id="353281903:0" label="" dim="1" unit="" min="2000" max="-2000" />
+      <Analog name="Main(0):vLoad" index="8" id="500196947:0" label="" dim="3" unit="" min="2000" max="-2000" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>

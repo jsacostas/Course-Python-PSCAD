@@ -1,0 +1,13 @@
+<Output device="EMTDC" version="2010" date="2020/01/23" time="16:52:35.000000">
+  <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+    <Sample rate="4000.0" end="800" />
+  </Domain>
+  <List classid="Analog">
+    <Analog name="Main(0):iLoad" index="0" id="1653734052:0" label="" dim="3" unit="" min="2000" max="-2000" />
+    <Analog name="Main(0):Vf" index="3" id="1999184271:0" label="" dim="3" unit="" min="2000" max="-2000" />
+    <Analog name="Main(0):reactivePower" index="6" id="1365253125:0" label="" dim="1" unit="" min="-2000" max="2000" />
+    <Analog name="Main(0):activePower" index="7" id="353281903:0" label="" dim="1" unit="" min="2000" max="-2000" />
+    <Analog name="Main(0):vLoad" index="8" id="500196947:0" label="" dim="3" unit="" min="2000" max="-2000" />
+  </List>
+  <List classid="Digital" />
+</Output>

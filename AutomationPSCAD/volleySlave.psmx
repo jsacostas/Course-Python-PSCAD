@@ -1,0 +1,44 @@
+<Meta name="volleySlave">
+  <messagelist>
+    <message status="normal" label="build" groupid="100006">
+      <User scope="volleySlave" name="volleySlave" status="normal" link="1090927202" /><![CDATA[Generating network and source code 'C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\volleySlave.gf46\Station.f'.]]></message>
+    <message status="normal" label="build" groupid="100006">
+      <User scope="volleySlave" name="Main" status="normal" link="247735379" /><![CDATA[Generating network and source code 'C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\volleySlave.gf46\Main.f'.]]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="volleySlave" name="master:tpflt" status="warning" link="741403501" /><![CDATA[Signal 'fType' type conversion may lose accuracy at connection 'FT']]></message>
+    <message status="normal" label="build" scope="volleySlave" groupid="100006"><![CDATA[Generating 'C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\volleySlave.gf46\volleySlave.map'.]]></message>
+    <message status="normal" label="build" scope="volleySlave" groupid="100014"><![CDATA[The total number of live nodes: 18]]></message>
+    <message status="normal" label="build" scope="volleySlave" groupid="100001"><![CDATA[Non-professional licenses are limited to a single, electrical subsystem. Subsystem splitting has been internally disabled for this simulation.]]></message>
+    <message status="normal" label="build" scope="volleySlave" groupid="400000"><![CDATA[Time for Compile: 63ms  Make: 0ms]]></message>
+    <message status="normal" label="build" scope="volleySlave" groupid="100015"><![CDATA[Will execute (1): call C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat]]></message>
+    <message status="normal" label="build" scope="volleySlave" groupid="100015"><![CDATA[Will execute (1): call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat"]]></message>
+    <message status="normal" label="build" scope="volleySlave" groupid="100015"><![CDATA[Will execute (2): make -f volleySlave.mak]]></message>
+    <message status="normal" label="build" scope="volleySlave" groupid="100015"><![CDATA[Will execute (2): "C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\volleySlave.gf46\volleySlave.mak.bat"]]></message>
+    <message status="normal" label="build" scope="volleySlave" groupid="100005"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" scope="volleySlave" groupid="0"><![CDATA[(py36) C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\volleySlave.gf46>call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat" ]]></message>
+    <message status="normal" label="build" scope="volleySlave" groupid="100004"><![CDATA[Compiling 'Station.f' into object code.]]></message>
+    <message status="normal" label="build" scope="volleySlave" groupid="100004"><![CDATA[Compiling 'Main.f' into object code.]]></message>
+    <message status="normal" label="build" scope="volleySlave" groupid="100012"><![CDATA[Linking objects and libraries into binary 'volleySlave.exe']]></message>
+    <message status="normal" label="build" scope="volleySlave" groupid="400000"><![CDATA[Solve Time = 62ms]]></message>
+  </messagelist>
+  <ViewContext>
+    <Window defn="volleySlave:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomlevel="6" scrollx="0" scrolly="0" />
+  </List>
+  <Catalog count="0" />
+  <Output device="EMTDC" version="2010" date="2020/01/22" time="19:12:32.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="4000.0" end="800" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):vLoad" index="0" id="500196947:0" label="" dim="3" unit="" min="2000" max="-2000" />
+      <Analog name="Main(0):iLoad" index="3" id="1653734052:0" label="" dim="3" unit="" min="2000" max="-2000" />
+      <Analog name="Main(0):Vf" index="6" id="1999184271:0" label="" dim="3" unit="" min="2000" max="-2000" />
+      <Analog name="Main(0):reactivePower" index="9" id="1365253125:0" label="" dim="1" unit="" min="-2000" max="2000" />
+      <Analog name="Main(0):activePower" index="10" id="353281903:0" label="" dim="1" unit="" min="2000" max="-2000" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>

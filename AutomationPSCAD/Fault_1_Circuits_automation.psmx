@@ -1,0 +1,65 @@
+<Meta name="Fault_1_Circuits_automation">
+  <messagelist>
+    <message status="normal" label="build" groupid="100006">
+      <User scope="Fault_1_Circuits_automation" name="Fault_1_Circuits_automation" status="normal" link="952512008" /><![CDATA[Generating network and source code 'C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\Fault_1_Circuits_automation.gf46\Station.f'.]]></message>
+    <message status="normal" label="build" groupid="100006">
+      <User scope="Fault_1_Circuits_automation" name="Main" status="normal" link="1945600372" /><![CDATA[Generating network and source code 'C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\Fault_1_Circuits_automation.gf46\Main.f'.]]></message>
+    <message status="normal" label="build" groupid="100006">
+      <User scope="Fault_1_Circuits_automation" name="Medida" status="normal" link="1232456612" /><![CDATA[Generating network and source code 'C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\Fault_1_Circuits_automation.gf46\Medida.f'.]]></message>
+    <message status="normal" label="build" groupid="100006">
+      <User scope="Fault_1_Circuits_automation" name="Control_MultiRun" status="normal" link="1558952566" /><![CDATA[Generating network and source code 'C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\Fault_1_Circuits_automation.gf46\Control_MultiRun.f'.]]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="Fault_1_Circuits_automation" name="master:mrun" status="warning" link="1352238896" /><![CDATA[Signal 'Enab' type conversion may lose accuracy at connection 'MEnab']]></message>
+    <message status="normal" label="build" groupid="100006">
+      <User scope="Fault_1_Circuits_automation" name="Fault_C1" status="normal" link="649484294" /><![CDATA[Generating network and source code 'C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\Fault_1_Circuits_automation.gf46\Fault_C1.f'.]]></message>
+    <message status="warning" label="build" groupid="206502">
+      <User scope="Fault_1_Circuits_automation" name="master:tpflt" status="warning" link="1556868335" /><![CDATA[Signal 'Fault' type conversion may lose accuracy at connection 'FT']]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="100006"><![CDATA[Generating 'C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\Fault_1_Circuits_automation.gf46\Fault_1_Circuits_automation.map'.]]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="100014"><![CDATA[The total number of live nodes: 24]]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="100001"><![CDATA[Non-professional licenses are limited to a single, electrical subsystem. Subsystem splitting has been internally disabled for this simulation.]]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="400000"><![CDATA[Time for Compile: 750ms  Make: 0ms]]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="100015"><![CDATA[Will execute (1): call C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat]]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="100015"><![CDATA[Will execute (1): call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat"]]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="100015"><![CDATA[Will execute (2): make -f Fault_1_Circuits_automation.mak]]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="100015"><![CDATA[Will execute (2): "C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\Fault_1_Circuits_automation.gf46\Fault_1_Circuits_automation.mak.bat"]]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="100005"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="0"><![CDATA[(py36) C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\Fault_1_Circuits_automation.gf46>call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat" ]]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="100004"><![CDATA[Compiling 'Station.f' into object code.]]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="100004"><![CDATA[Compiling 'Main.f' into object code.]]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="100004"><![CDATA[Compiling 'Medida.f' into object code.]]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="100004"><![CDATA[Compiling 'Control_MultiRun.f' into object code.]]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="100004"><![CDATA[Compiling 'Fault_C1.f' into object code.]]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="100012"><![CDATA[Linking objects and libraries into binary 'Fault_1_Circuits_automation.exe']]></message>
+    <message status="normal" label="build" groupid="100010">
+      <Wire scope="Fault_1_Circuits_automation" name="TMulti" status="normal" link="1361376625" /><![CDATA[Solving transmission segment using 'C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\Fault_1_Circuits_automation.gf46\TMulti.tli'.]]></message>
+    <message status="normal" label="build" groupid="100010">
+      <Wire scope="Fault_1_Circuits_automation" name="TMultip2" status="normal" link="160912097" /><![CDATA[Solving transmission segment using 'C:\Users\jsacostas\Dropbox\Python\Course-Python-PSCAD\AutomationPSCAD\Fault_1_Circuits_automation.gf46\TMultip2.tli'.]]></message>
+    <message status="normal" label="build" scope="Fault_1_Circuits_automation" groupid="400000"><![CDATA[Solve Time = 860ms]]></message>
+  </messagelist>
+  <Catalog count="1">
+    <List classid="Part" name="Transmission Line">
+      <Part name="Line_Tower_Universal" />
+    </List>
+  </Catalog>
+  <ViewContext>
+    <Window defn="Fault_1_Circuits_automation:Main" call="0" />
+  </ViewContext>
+  <Output device="EMTDC" version="2010" date="2020/01/22" time="15:25:11.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="4000.0" end="3200" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):IfRMS_C1" index="0" id="399632815:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Vo_C1" index="1" id="345919987:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Io_C1" index="4" id="784088216:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Vf_C1" index="7" id="1835810261:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):If_C1" index="10" id="1143553453:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Vi_C1" index="13" id="1952844168:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):Ii_C1" index="16" id="151153064:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+  <List classid="View">
+    <View name="Main" zoomlevel="6" scrollx="0" scrolly="0" />
+  </List>
+</Meta>
