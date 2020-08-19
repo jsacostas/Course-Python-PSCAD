@@ -21,4 +21,4 @@ The propose of this course is to teach you how to use the Python automation libr
 11. [Reading and writing files](https://github.com/jsacostas/Course-Python-PSCAD/blob/master/Topic%2011%20-%20ReadingAndWritingFiles.ipynb)
 12. [Automating PSCAD](https://github.com/jsacostas/Course-Python-PSCAD/blob/master/Topic%2012%20-%20PSCAD.ipynb)
 
-I hope that this course will be usefull in your carrers. It was done in [Jupyther notebooks](https://jupyter.org/) because it is easy to present text and code in the same place. You can use other IDE if you feel more conftrable. 
+I hope that this course will be usefull in your carrers. It was done in [Jupyther notebooks](https://jupyter.org/) because it is easy to present text and code in the same place. You can use other IDE if you feel more confortable. 
